@@ -34,3 +34,13 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Environment Variables
+.env
+.env.local
+.env.*
+!.env.example
+
+# Other common files to ignore
+node_modules/
+.DS_Store
